@@ -31,7 +31,7 @@ if ($error_count == 0) {
     echo 'Accesso Consentito';
 } else {
     if ($error_count == 1) echo "<h4>È stato trovato $error_count errore:</h4>";
-    else echo "<h4>Sono stati trovati i $error_count errori:</h4>";
+    else echo "<h4>Sono stati trovati $error_count errori:</h4>";
     echo "<ul>";
     foreach ($errors as $error) {
         echo "<li>$error</li>";
